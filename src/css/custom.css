@@ -79,3 +79,7 @@
 .text-centered {
   text-align: center;
 }
+
+.main-container {
+  max-width: 1000px;
+}

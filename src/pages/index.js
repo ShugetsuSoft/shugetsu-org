@@ -34,7 +34,8 @@ export default function Home() {
       description="Where no magic happen.">
       <HomepageHeader />
       <main>
-        <div className="container">
+        <br />
+        <div className="container main-container">
           <MDXContent>
             <IndexContent />
           </MDXContent>
