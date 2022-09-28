@@ -1,0 +1,81 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #fff;
+  --ifm-hero-background-color: #fff;
+  --ifm-font-color-base-inverse: #111;
+  --ifm-navbar-link-hover-color: #000;
+  --ifm-link-color: #111;
+  --ifm-link-hover-color: #000;
+  --ifm-font-color-base: #111;
+  --ifm-color-primary-dark: #111;
+  --ifm-color-primary-darker: #111;
+  --ifm-color-primary-darkest: #111;
+  --ifm-color-primary-light: #ccc;
+  --ifm-color-primary-lighter: #ccc;
+  --ifm-color-primary-lightest: #ccc;
+  --ifm-menu-color-active: #000;
+  --ifm-breadcrumb-color-active: #000;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-button-padding-vertical: 0.2rem;
+  --ifm-button-padding-horizontal: 0.8rem;
+  --ifm-hr-height: 3px;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #111;
+  --ifm-font-color-base: #eee;
+  --ifm-menu-color-active: #fff;
+  --ifm-link-color: #eee;
+  --ifm-link-hover-color: #fff;
+  --ifm-font-color-base-inverse: #eee;
+  --ifm-navbar-link-hover-color: #fff;
+  --ifm-breadcrumb-color-active: #fff;
+  --ifm-color-primary-dark: #111;
+  --ifm-color-primary-darker: #111;
+  --ifm-color-primary-darkest: #111;
+  --ifm-color-primary-light: #ccc;
+  --ifm-color-primary-lighter: #ccc;
+  --ifm-color-primary-lightest: #ccc;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.button {
+  border-radius: 0;
+  background: transparent;
+  color: var(--ifm-font-color-base-inverse) !important;
+  border: var(--ifm-font-color-base-inverse) 2px solid;
+}
+
+.button:hover {
+  background: var(--ifm-navbar-link-hover-color);
+  color: var(--ifm-color-primary) !important;
+}
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('/static/font/Righteous-Regular.ttf');
+}
+
+.table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
+  color: var(--ifm-menu-color-active);
+}
+
+.text-centered {
+  text-align: center;
+}
