@@ -16,6 +16,13 @@
   .heroBanner {
     padding: 2rem;
   }
+
+}
+
+@media screen and (min-width: 996px) {
+  .heroTitle {
+    font-size: 7rem;
+  }
 }
 
 .buttons {
@@ -26,5 +33,4 @@
 
 .heroTitle {
   font-family: 'Righteous';
-  font-size: 7rem;
 }
