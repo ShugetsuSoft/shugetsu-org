@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Where no magic happen.">
+      description="Where no magic happens.">
       <HomepageHeader />
       <main>
         <br />
